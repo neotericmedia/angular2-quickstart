@@ -12,9 +12,9 @@ var core_1 = require('@angular/core');
 var VehiclesComponent = (function () {
     function VehiclesComponent() {
         this.vehicles = [
-            { id: 1, name: 'X-Wing Fighter' },
-            { id: 2, name: 'Tie Fighter' },
-            { id: 3, name: 'Y-Wing Fighter' }
+            { id: 1, name: 'Angular2 component 1' },
+            { id: 2, name: 'Angular2 component 2' },
+            { id: 3, name: 'Angular2 component 3' }
         ];
     }
     VehiclesComponent = __decorate([
