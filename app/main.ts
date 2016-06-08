@@ -4,3 +4,5 @@ import { VehiclesComponent } from './vehicles/vehicles.component';
 
 bootstrap(AppComponent);
 bootstrap(VehiclesComponent);
+
+this.goCats = false;

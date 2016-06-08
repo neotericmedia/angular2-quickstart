@@ -1,34 +1,8 @@
-//main nav
- $(function() {
-     $('.toggle-nav').click(function() {
-         if ($('body').hasClass('show-nav')) {
-             $('body').removeClass('show-nav').addClass('hide-nav');
-             setTimeout(function() {
-                 $('body').removeClass('hide-nav');
-             }, 500);
-         } else {
-             $('body').removeClass('hide-nav').addClass('show-nav');
-         }
-         return false;
-     });
- });
- $(document).keyup(function(e) {
-     if (e.keyCode == 27) {
-         if ($('body').hasClass('show-nav')) {
-             $('body').removeClass('show-nav').addClass('hide-nav');
-             setTimeout(function() {
-                 $('body').removeClass('hide-nav');
-             }, 500);
-         } else {
-             $('body').removeClass('hide-nav').addClass('show-nav');
-         }
-     }
- });
-
-
-
-
-
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
 
 
 
@@ -45,6 +19,23 @@ function collapseNavbar() {
 
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
+
+
+
+// $(".closeNav").click(function(){
+//     $("nav#mainNav").hide();
+// });
+//
+
+
+
+$('div.closeNav').on('click', function() {
+  $('div#mainNav').addClass('hidden');
+});
+$('div.openNav').on('click', function() {
+  $('div#mainNav').addClass('hidden');
+});
+
 
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
