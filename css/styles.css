@@ -5809,6 +5809,17 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.push-wrap {
+  min-height: 1000px;
+  position: relative;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 #body-nav {
   position: fixed;
   overflow: hidden;
